@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ГопКоин - Будущее за пацанами</title>
+    <style>
+        body {
+            background-color: #000;
+            color: lime;
+            font-family: "Courier New", monospace;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        p {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .button {
+            background-color: lime;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 20px;
+            display: inline-block;
+            margin-top: 30px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #00ff00;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            color: #bbb;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>ГопКоин</h1>
+        <p>Крипта для реальных пацанов</p>
+        <p>Скоро на всех малинниках</p>
+        <a href="#" class="button">Подписаться на новости</a>
+    </div>
+
+    <footer>
+        <p>© 2025 ГопКоин. Все права защищены.</p>
+    </footer>
+
+</body>
+
+</html>
